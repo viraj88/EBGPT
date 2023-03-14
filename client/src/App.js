@@ -32,7 +32,7 @@ async function handleSubmit(e) {
   
   // fetch response to the api combining the chat log array of messages and seinding it as a message to localhost:3000 as a post
   const messages = chatLogNew.map((message) => message.message).join("\n");
-  const response = await fetch("http://localhost:3080", {
+  const response = await fetch("http://ebgpt.vercel.app/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
