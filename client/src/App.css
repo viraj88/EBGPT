@@ -107,16 +107,16 @@
   
 }
 .avatar {
-  background:white;
+  background:none;
   border-radius:50%;
-  width: 40px;
-  height: 40px;
-  display:flex;
+  width: 20px;
+  height: 45px;
+  display: inline-flex;
   align-items:center;
   justify-content:center;
-  padding:5px;
-  font-size:14px;
-  color:#444654;
+  padding:18px;
+  font-size:16px;
+  color:#fffff;
 }
 
 .message {
